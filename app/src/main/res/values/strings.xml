@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dear winter, I love you</string>
+    <string name="reload">Reload</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+    <string name="gps_settings">Location is settings</string>
+    <string name="gps_not_enabled">Location is not enabled. Do you want to go to settings menu?</string>
+    <string name="please_set_location">Please, set location manually in settings</string>
+    <string name="location_temperature">Location temperature</string>
+    <string name="hello">Hello,</string>
+    <string name="username">userName!</string>
+    <string name="temp">Temperature</string>
+    <string name="_23_0">23.0°</string>
+    <string name="about_">About App ?</string>
+    <string name="get_notify_title">Get Notification Whenever Temperature Changes Whether It Drops, Gets Too Hot, Or About To Rain.</string>
+</resources>

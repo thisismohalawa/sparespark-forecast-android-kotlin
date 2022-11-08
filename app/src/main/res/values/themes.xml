@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DearWinterILoveYou" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_500</item>
+        <item name="colorSecondaryVariant">@color/blue_700</item>
+        <item name="colorOnSecondary">@color/mid_dark_gray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="matchMatch_">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="matchWrap_" parent="matchMatch_">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="matchWrapMainLayout_" parent="matchMatch_">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/_20sdp</item>
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingEnd">@dimen/_20sdp</item>
+    </style>
+
+    <style name="wrapWrap_" parent="matchWrap_">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="mainTitle_" parent="wrapWrap_">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="subTitle_" parent="wrapWrap_">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/mid_dark_gray</item>
+    </style>
+
+    <style name="singeLineTitle_" parent="wrapWrap_">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLength">25</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>
