@@ -13,3 +13,15 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+/app/src/main/java/sparespark/forecast/core/Backups.kt
+/app/src/main/java/sparespark/forecast/core/Constants.kt
+/app/src/main/java/sparespark/forecast/core/Secret.kt
+/app/src/main/java/sparespark/forecast/data/db
+/app/src/main/java/sparespark/forecast/data/network/response/WeatherStackService.kt
+
+
+/app/src/main/res/values
+/app/src/main/res/xml
+/app/src/main/AndroidManifest.xml
+

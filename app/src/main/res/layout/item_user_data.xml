@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchWrap_"
+    android:padding="@dimen/_10sdp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/blue_200"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_3sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        style="@style/wrapWrap_"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_toRightOf="@+id/card_view">
+
+        <TextView
+            style="@style/subTitle_"
+            android:text="@string/hello" />
+
+        <TextView
+            style="@style/mainTitle_"
+            android:maxLength="20"
+            android:text="@string/username"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_settings"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:src="@drawable/ic_settings"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

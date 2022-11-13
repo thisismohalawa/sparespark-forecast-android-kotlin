@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchWrap_"
+    android:padding="@dimen/_10sdp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        style="@style/matchWrap_"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/blue_200"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_3sdp">
+
+        <RelativeLayout
+            style="@style/matchWrap_"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/card_gradient"
+            android:padding="@dimen/_10sdp">
+
+            <LinearLayout
+                style="@style/matchWrap_"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_toStartOf="@id/temp_circle_layout">
+
+                <TextView
+                    android:id="@+id/text1"
+                    style="@style/mainTitle_"
+                    android:text="@string/temp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/text_location"
+                    style="@style/singeLineTitle_"
+                    android:drawableStart="@drawable/ic_location"
+                    android:drawablePadding="@dimen/_1sdp"
+                    android:text="@string/location"
+                    tools:ignore="UseCompatTextViewDrawableXml" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/temp_circle_layout"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/cir_white_oval"
+                android:elevation="@dimen/_5sdp"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/text_temp"
+                    style="@style/wrapWrap_"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/font_1"
+                    android:gravity="center"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    android:text="@string/_00_0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
